@@ -1,0 +1,248 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Harsh Sharma} \\ \vspace{1pt}
+    Mathworks, Bangalore, India \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +91-7009575620 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{harshsharmasavernie@gmail.com}} ~ 
+    % \href{https://www.linkedin.com/in/shivam-sood-a79866196/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/shivam-sood}}  ~
+    \href{https://github.com/gaitonde25}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/gaitonde25}} 
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {IIT Kharagpur}{July 2019 -- April 2024}
+      {Major : Dual (B.Tech + M.Tech) in Aerospace Engineering}{CGPA : 8.56 / 10\vspace{1.8 mm}}
+      { \small \emph {Minor : Mathematics and Computing} }\\
+      \vspace{-1.2 mm}
+      { \small \emph{Micro : Entrepreneurship and Innovation}}
+
+  \resumeSubHeadingListEnd
+  
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience and Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Full Stack Developer (MERN Stack)}{July 2023 – Feb 2024}
+    {}{}
+    \vspace{-18pt}
+    \resumeItemListStart
+        \resumeItem
+            {Developed and deployed a Three.js-based single-page application (SPA) using the \textbf{MERN stack} on \textbf{AWS EC2}, with backend support integrated securely using \textbf{MongoDB} and \textbf{RDS} databases to manage user data and app performance.}
+        \resumeItem
+            {Built an interactive dashboard allowing users to upload \textbf{.glb} files, manipulate 3D objects, and capture screenshots, utilizing \textbf{React.js}, \textbf{Three.js}, raycasting, and advanced transform controls for seamless object handling.}
+        \resumeItem
+            {Integrated AI-powered heatmap functionality for 3D scene analysis, with image storage and management using \textbf{AWS S3 bucket}, along with an optimized rendering pipeline for high-quality visuals.}
+        \resumeItem
+            {Improved the development process by enhancing the \textbf{CI/CD} pipeline through \textbf{GitHub}, while also implementing UI/UX updates, adding advanced loading animations, and refining object management features for a smoother user experience.}
+        \resumeItem
+            {Optimised scene environments with WebGL CubeCamera and \textbf{removing HDR dependency} creating consistent scenes.}
+            \vspace{-15pt}
+    \resumeItemListEnd
+
+      
+    \resumeSubheading
+      {Search Engine}{May 2022}
+      {}{}
+      \vspace{-18pt}
+      \resumeItemListStart
+        \resumeItem{Built a \textbf{cross-platform website} which allows user to search for programming problems using \textbf{MERN}}
+        \resumeItem{Scraped a dataset of \textbf{2000} programming problems from Codeforces using \textbf{BS 4 and Selenium Web Driver}}
+        \resumeItem{Applied the \textbf{TF-IDF algorithm} on the scraped dataset efficiently such that the average search time
+per query is less than \textbf{2 sec. Top 10} matches are shown for every search with a dedicated web-page developed using \textbf{EJS}}
+        \resumeItem{Handled edge-cases for queries like \textbf{spelling mistakes, camel casing and number to word conversions}}
+        \resumeItem{Successfully deployed the website using \textbf{Heroku CLI} through \textbf{GitHub Repository and MongoDB Atlas}}
+      \resumeItemListEnd
+    
+    
+      
+    \resumeSubheading
+      {Sigmoid Data Science Hackathon}{Oct-Nov 2022}
+      {}{}
+      \vspace{-18pt}
+      \resumeItemListStart
+        \resumeItem{Proposed solutions to solve the task of emotion detection challenge trained on twitter data, for multi-label classification}
+        \resumeItem{Used \textbf{Transformer-Based model} along with multi-headed attention, and correlation aware loss to get a \textbf{0.59 F1} score}
+        \resumeItem{\textbf{Finished First}  among more than 50 participating teams from top engineering colleges in India, after multiple rounds of evaluation. Awarded a \textbf{cash prize worth 100K Rupees} in recognition of outstanding performance.}
+      \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+\section{Achievements}
+    \begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+  \item Achieved a global rank of \textbf{397} in \textbf{Google Kick Start} Round B 2022
+  \hfill
+        { [April 2022] }
+  \item Secured \textbf{100\%} percentile in \textbf{mathematics JEE Mains} among 10,00,000+ candidates
+  \hfill
+        {[JEE Mains 2019]}
+\end{itemize}
+    
+    
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    {Operating System | Machine Learning: Foundations and applications | Programming and Data Structures | Probability and Statistics| Numerical Solution of ODE and PDE | Transform Calculus | Discrete Mathematics}
+ 
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Expertise}
+    {\textbf{MOOCs} : Machine Learning, Deep Learning \textbf{Programming Languages}: C/C++(STL) | Kotlin | Python | JavaScript | MATLAB \textbf{Libraries} : React | NodeJS | ThreeJS | SciPy | NumPy | Pandas | Pytorch | Scikit-learn | Matplotlib \textbf{DBMS/Softwares}: MongoDB | Visual Studio Code | MS Office \textbf{Frameworks}: Git}
+
+
+%-----------INVOLVEMENT---------------
+\section{Positions Of Responsibility}
+    \resumeSubHeadingListStart
+        \resumeSubheading{ Captain | Football General Championship | LLR Hall | IIT Kharagpur}{}{}{}
+        \vspace{-18pt}
+            \resumeItemListStart
+                \resumeItem{Led the football team as Captain, conducted trials for \textbf{150} hall boarders and organized regular practice sessions}
+                \resumeItem{Managed a budget of \textbf{50,000}, overseeing team logistics, ensuring effective coordination to support optimal performance}
+            \resumeItemListEnd
+              
+    \resumeSubHeadingListEnd
+    
+% Extra curricular
+
+\section{Extra Curricular Activities}
+  \begin{itemize}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+  \item Participated in Open IIT Math Olympiad 2019 conducted by TSG, IIT Kharagpur
+  \item Participated in the Inter Hall General Championship Stage Play Event as a script writer at LLR Hall
+  \item Playing chess and solving puzzles for more than 3 years on chess.com with current rapid rating of 1240
+\end{itemize}
+
+\end{document}
